@@ -1,0 +1,75 @@
+.skillWrap{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background: #f7f7f7;
+}
+
+.skills {
+    width: calc(100% - 300px);
+    min-height: max-content;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    clear: both;
+    display: block;
+
+}
+
+.container {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.row_title{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.row_info{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.title{
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.heading_meta {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #888;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.addo_heading{
+    color: #101010;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.col_md{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.text{
+    font-family: 'Rambla', sans-serif;
+    font-size: 15px;
+    line-height: 1.75em;
+    font-weight: 400;
+    color: #888;
+    margin: 0 0 20px;
+}
+
+
+
+
