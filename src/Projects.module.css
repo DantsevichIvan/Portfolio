@@ -8,30 +8,38 @@
 }
 
 .project {
-    width: calc(100% - 300px);
+    width: calc(100% - 250px);
     min-height: max-content;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    clear: both;
+    display: block;
 
 }
-.row{
-    padding-left: 20px;
-    padding-right: 20px;
-    position: relative;
+.container{
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .section_heading{
     margin-bottom: 48px;
     text-align: left;
 }
 .section_title{
-    display: inline-block;
-    font-size: 40px;
-    font-weight: 800;
-    letter-spacing: -.25px;
-    line-height: 100%;
-    margin-bottom: 12px;
-    position: relative;
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+
 }
 .section_description{
     font-size: 15px;
     margin-bottom: 1rem;
     margin-top: 0;
+}
+.project_list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }

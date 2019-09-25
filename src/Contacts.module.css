@@ -1,6 +1,14 @@
+.wrapperContact{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background: #ebede8;
+    color: #101010;
+}
+
 .contacts {
+    width: calc(100% - 250px);
     min-height: max-content;
-    background-color: #1f1f20;
     display: flex;
     justify-content: center;
     position: relative;

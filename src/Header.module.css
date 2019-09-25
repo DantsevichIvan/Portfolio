@@ -1,8 +1,8 @@
 .header {
     list-style-type: none;
-    width: 300px;
+    width: 250px;
     height: 100%;
-    background-color: black;
+    background-color: #120517;
     position: fixed;
     z-index: 2;
 
