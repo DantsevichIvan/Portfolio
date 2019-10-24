@@ -2,8 +2,6 @@
     display: flex;
     justify-content: flex-end;
 }
-
-
 .slogan {
     width: calc(100% - 250px);
     height: max-content;
@@ -11,12 +9,9 @@
     position: relative;
 
 }
-
 .container {
     padding: 80px 40px;
 }
-
-
 .row_title {
     color: #333333;
     display: flex;
@@ -36,10 +31,7 @@
 
 .information {
     display: flex;
-
 }
-
-
 .avatar img {
     background-color: transparent;
     /*border-color: rgba(0,0,0,.18);*/
@@ -49,14 +41,11 @@
     height: auto;
     padding: .25rem;
 }
-
 .about_content {
     margin-left: 17px;
 }
-
 .content_block {
 }
-
 .content_title {
     color: black;
     font-size: 28px;
@@ -64,7 +53,6 @@
     line-height: 1.5;
     margin-bottom: 15px;
 }
-
 .content_description {
     color: black;
     font-size: 18px;
@@ -72,34 +60,95 @@
     margin-bottom: 0;
     padding-bottom: 27px;
 }
-
 .content_info {
     color: #333;
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     font-size: 18px;
     margin-bottom: 4px;
     padding: 27px 0;
 }
-
 .row {
     display: flex;
-    justify-content: space-around;
-    margin-left: -15px;
-    margin-right: -15px;
+    flex-direction: column;
 }
-
 .single_info {
     margin-bottom: 10px;
 }
-
 .single_info p {
     display: inline-block;
     margin-bottom: 0;
 }
-
 .single_info span {
     color: #333;
     font-weight: 700;
     margin-right: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .sloganWrap{
+       display: flex;
+    }
+    .slogan{
+      width: 100%;
+    }
+    .avatar img{
+        background-color: transparent;
+        /*border-color: rgba(0,0,0,.18);*/
+        width: 200px;
+        border: 1px solid #dee2e6;
+        border-radius: .25rem;
+        height: auto;
+        padding: .25rem;
+        display: flex;
+        justify-content: center;
+    }
+    .information {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content_info{
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        margin-bottom: 4px;
+        padding: 27px 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .sloganWrap{
+        display: flex;
+    }
+    .slogan{
+        width: 100%;
+    }
+    .avatar img{
+        background-color: transparent;
+        /*border-color: rgba(0,0,0,.18);*/
+        width: 350px;
+        border: 1px solid #dee2e6;
+        border-radius: .25rem;
+        height: auto;
+        padding: .25rem;
+        display: flex;
+        justify-content: center;
+    }
+    .information {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content_info{
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        font-size: 26px;
+        margin-bottom: 4px;
+        padding: 27px 0;
+    }
 }

@@ -1,45 +1,54 @@
 import React from 'react';
 import style from './Footer.module.css';
-import telegramIcon from './img/telegram2.svg';
+import telegramIcon from './img/telegram.svg';
 import vkIcon from './img/vk.svg';
-import facebookIcon from './img/facebook.svg';
-import linkedinIcon from './img/linkedin.svg';
-import Title from "./Title";
+import facebookIcon from './img/facebook-logo.svg';
+import linkedinIcon from './img/linkedin-letters.svg';
+import gitHubIcon from './img/github.svg'
 import Fade from "react-reveal/Fade";
+
+
+const arrIconSocial = [
+    {
+        SocialIcon: telegramIcon,
+        bgc: {backgroundColor: '#61A8DE'}
+    }, {
+        SocialIcon: vkIcon,
+        bgc: {backgroundColor: '#6297de'}
+    },
+    {
+        SocialIcon: gitHubIcon,
+        bgc: {backgroundColor: 'grey'}
+    }, {
+        SocialIcon: facebookIcon,
+        bgc: {backgroundColor: '#5557de'}
+    }, {
+        SocialIcon: linkedinIcon,
+        bgc: {backgroundColor: '#2c9ede'}
+    },
+]
+
 
 const Footer = () => {
     return (
-        <div className={style.footer}>
-            <Fade bottom>
+        <div className={style.footerWraper}>
+            <div className={style.footer}>
                 <div className={style.container}>
-                    <Title title={'Ivan Dantsevich'}/>
                     <div className={style.networks}>
-                        <div className={style.networkIcon}>
-                            <a href="">
-                                <img src={telegramIcon} alt=""/>
-                            </a>
-                        </div>
-                        <div className={style.networkIcon}>
-                            <a href="">
-                                <img src={vkIcon} alt=""/>
-                            </a>
-                        </div>
-                        <div className={style.networkIcon}>
-                            <a href="">
-                                <img src={facebookIcon} alt=""/>
-                            </a>
-                        </div>
-                        <div className={style.networkIcon}>
-                            <a href="">
-                                <img src={linkedinIcon} alt=""/>
-                            </a>
-                        </div>
+                        {
+                            arrIconSocial.map((el) => {
+                                return (
+                                    <a href="" style={el.bgc}>
+                                        <img src={el.SocialIcon} alt=""/>
+                                    </a>
+                                )
+                            })
+                        }
                     </div>
                     <span className={style.copyright}>2019 Все права защищены</span>
                 </div>
-            </Fade>
+            </div>
         </div>
-
     )
 };
 

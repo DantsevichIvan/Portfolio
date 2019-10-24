@@ -29,6 +29,7 @@
     height: 200px;
     opacity: 0.4;
     background: #333
+
 }
 
 .infoProject {
@@ -40,11 +41,22 @@
     z-index: -1;
 }
 
-.projectImg:hover {
-    filter: brightness(20%);
-    transition: 0.7s;
-
+.projectImg:hover:before {
+    opacity: 0.9;
+    transition: 0.5s;
 }
+
+.projectImg:hover .infoProject{
+    z-index: 1;
+    transition: 0.5s;
+    color: white;
+}
+
+.projectImg:hover .infoProject a {
+    color: yellow;
+    text-decoration: none;
+}
+
 
 .projectTitle {
     text-align: center;

@@ -21,7 +21,6 @@ const Information = () => {
                                 <h6 className={style.content_title}>I'm Ivan Dantsevich, a Frontend-Developer
                                     React </h6>
                             </div>
-
                             <div className={style.content_description}>
                                 <p>
                                     Attentive, punctual, responsible for work, I can easily find a common language with
@@ -38,18 +37,19 @@ const Information = () => {
                                         <p>Ivan Dantsevich</p>
                                     </div>
                                     <div className={style.single_info}>
-                                        <span>Email:</span>
-                                        <p><a href="iw.dantsevich@gmail.com">iw.dantsevich@gmail.com</a></p>
+                                        <span>From:</span>
+                                        <p>Minsk, BLR</p>
                                     </div>
                                 </div>
-                                 <div className={style.row}>
+                                <div className={style.row}>
                                     <div className={style.single_info}>
                                         <span>Age:</span>
                                         <p>22</p>
                                     </div>
                                     <div className={style.single_info}>
-                                        <span>From:</span>
-                                        <p>Minsk, BLR</p>
+                                        <span>Email:</span>
+                                        <p><a href="iw.dantsevich@gmail.com">iw.dantsevich@gmail.com</a></p>
+
                                     </div>
                                 </div>
                             </div>
