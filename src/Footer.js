@@ -14,17 +14,21 @@ const arrIconSocial = [
         bgc: {backgroundColor: '#61A8DE'}
     }, {
         SocialIcon: vkIcon,
-        bgc: {backgroundColor: '#6297de'}
+        bgc: {backgroundColor: '#6297de'},
+        href: 'https://vk.com/id75036119'
     },
     {
         SocialIcon: gitHubIcon,
-        bgc: {backgroundColor: 'grey'}
+        bgc: {backgroundColor: 'grey'},
+        href:'https://github.com/DantsevichIvan'
     }, {
         SocialIcon: facebookIcon,
-        bgc: {backgroundColor: '#5557de'}
+        bgc: {backgroundColor: '#5557de'},
+        href:'https://www.facebook.com/'
     }, {
         SocialIcon: linkedinIcon,
-        bgc: {backgroundColor: '#2c9ede'}
+        bgc: {backgroundColor: '#2c9ede'},
+        href:'https://www.linkedin.com/in/%D0%B8%D0%B2%D0%B0%D0%BD-%D0%B4%D0%B0%D0%BD%D1%86%D0%B5%D0%B2%D0%B8%D1%87-79b795173/'
     },
 ]
 
@@ -38,7 +42,7 @@ const Footer = () => {
                         {
                             arrIconSocial.map((el) => {
                                 return (
-                                    <a href="" style={el.bgc}>
+                                    <a href={el.href} style={el.bgc}>
                                         <img src={el.SocialIcon} alt=""/>
                                     </a>
                                 )

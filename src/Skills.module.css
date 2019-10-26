@@ -77,23 +77,6 @@
     margin: 0 0 20px;
 }
 
-
-@media screen and (max-width: 800px) {
-    .skillWrap {
-        display: flex;
-        width: 100%;
-    }
-
-    .skills {
-        width: 100%;
-    }
-    .row_info {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-
 @media screen and (max-width: 1100px) {
     .skillWrap {
         display: flex;
@@ -116,6 +99,23 @@
         margin: 0 0 20px;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .skillWrap {
+        display: flex;
+        width: 100%;
+    }
+
+    .skills {
+        width: 100%;
+    }
+    .row_info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
 
 
 

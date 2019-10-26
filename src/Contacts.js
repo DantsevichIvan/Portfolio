@@ -26,7 +26,7 @@ const arrayIcon = [
 
 const Contacts = () => {
     return (
-        <div className={style.wrapperContact}>
+        <div className={style.wrapperContact} id='Contact'>
             <div className={style.contacts}>
                 <div className={style.container}>
                     {

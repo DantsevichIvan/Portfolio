@@ -31,7 +31,7 @@ const projectsList = [
 
 const Projects = () => {
     return (
-        <div className={style.wrapper}>
+        <div className={style.wrapper} id='Projects'>
             <div className={style.project}>
                 <div className={style.container}>
                     <div className={style.section_heading}>

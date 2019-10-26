@@ -1,20 +1,24 @@
 import React from 'react';
 import style from './Header.module.css'
+import Skills from "./Skills";
 
 
 class Header extends React.Component {
     constructor() {
         super();
-        this.menu = 'open'
+        this.state ={
+           menu: 'open'
+        }
     }
 
     change() {
-
-            this.$el.style.display = 'none'
+         this.setState({
+             menu: 'close'
+         })
     }
 
     render() {
-        if (this.menu === 'open') {
+        if (this.state.menu === 'open') {
             return (
                 <div className={style.header}>
                     <div className={style.container}>
@@ -28,16 +32,16 @@ class Header extends React.Component {
                         <div className={style.sidebar_menu}>
                             <ul className={style.list_menu}>
                                 <li>
-                                    <a href="" className={style.link}>Home</a>
+                                    <a href="#Home" className={style.link}>Home</a>
                                 </li>
                                 <li>
-                                    <a href="" className={style.link}>Skills</a>
+                                    <a href="#Skills"  className={style.link}>Skills</a>
                                 </li>
                                 <li>
-                                    <a href="" className={style.link}>Project</a>
+                                    <a href="#Projects" className={style.link}>Projects</a>
                                 </li>
                                 <li>
-                                    <a href="" className={style.link}>Contact</a>
+                                    <a href="#Contact" className={style.link}>Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -45,12 +49,10 @@ class Header extends React.Component {
                     <button onClick={this.change.bind(this)}> Hello</button>
                 </div>
             )
-        }
-        else if (this.menu === 'close') {
-            debugger
+        } else if (this.state.menu === 'close') {
             return (
                 <div>
-
+                    helloy
                 </div>
 
             )

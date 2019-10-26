@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 
 const Information = () => {
     return (
-        <div className={style.sloganWrap}>
+        <div className={style.sloganWrap} id='Home'>
             <div className={style.slogan}>
                 {/*<Fade bottom>*/}
                 <div className={style.container}>

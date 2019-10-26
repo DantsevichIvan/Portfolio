@@ -35,7 +35,7 @@ const skills = [
 
 const Skills = () => {
     return (
-        <div className={style.skillWrap}>
+        <div className={style.skillWrap} id='Skills'>
             <div className={style.skills}>
                 <div className={style.container}>
                     <div className={style.row_title}>
