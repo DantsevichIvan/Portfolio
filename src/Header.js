@@ -46,7 +46,7 @@ class Header extends React.Component {
                             </ul>
                         </div>
                     </div>
-                    <button onClick={this.change.bind(this)}> Hello</button>
+                    {/*<button onClick={this.change.bind(this)}> Hello</button>*/}
                 </div>
             )
         } else if (this.state.menu === 'close') {

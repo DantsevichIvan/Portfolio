@@ -7,7 +7,10 @@ const Main = () => {
             <div className={style.container}>
                 <div className={style.greeting}>
                     <span>Hello!</span>
-                    <span>I am <span>Ivan</span> <span>Dantsevich</span></span>
+                    <span>I am
+                        <span>Ivan</span>
+                        <span>Dantsevich</span>
+                    </span>
                 </div>
             </div>
         </div>

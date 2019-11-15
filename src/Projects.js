@@ -10,22 +10,15 @@ import Skill from "./Skill";
 
 const projectsList = [
     {
-        name: "Project-1",
-        bgI: {backgroundImage: `url(${social_networkBgImg})`}
+        name: "Social-network",
+        bgI: {backgroundImage: `url(${social_networkBgImg})`},
+        link: 'https://dantsevichivan.github.io/project-social-network/'
     },
     {
-        name: "Project-2",
-        bgI: {backgroundImage: `url(${todolistBgImg})`}
+        name: "test_for_Key-Group",
+        bgI: {backgroundImage: `url(${todolistBgImg})`},
+        link: "https://dantsevichivan.github.io/test_for_Key-Group/"
     },
-    {
-        name: "Project-3",
-        bgI: {backgroundImage: `url(${todolistBgImg})`}
-    },
-    {
-        name: "Project-4",
-        bgI: {backgroundImage: `url(${todolistBgImg})`}
-    }
-
 ]
 
 

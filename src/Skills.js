@@ -13,14 +13,14 @@ const skills = [
         name: 'JS',
         knowledge: 60,
         widthSkill :{
-            width: `90%`
+            width: `60%`
         }
     },
     {
         name: 'React',
-        knowledge: 70,
+        knowledge: 60,
         widthSkill :{
-            width: `70%`
+            width: `60%`
         }
     },
     {
