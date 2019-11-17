@@ -1,11 +1,9 @@
 import React from 'react';
 import style from './Contacts.module.css'
-import Title from "./Title";
 import Fade from "react-reveal/Fade";
 import mapIcon from './img/placeholder.svg'
 import phoneIcon from './img/phone-call.svg'
 import emailIcon from './img/message.svg'
-import social_networkBgImg from "./img/social-network.png";
 
 
 const arrayIcon = [
@@ -27,6 +25,7 @@ const arrayIcon = [
 const Contacts = () => {
     return (
         <div className={style.wrapperContact} id='Contact'>
+            <Fade right big >
             <div className={style.contacts}>
                 <div className={style.container}>
                     {
@@ -43,6 +42,7 @@ const Contacts = () => {
                     }
                 </div>
             </div>
+            </Fade>
         </div>
     )
 };

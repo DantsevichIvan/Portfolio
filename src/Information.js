@@ -5,8 +5,8 @@ import Fade from "react-reveal/Fade";
 const Information = () => {
     return (
         <div className={style.sloganWrap} id='Home'>
+            <Fade bottom>
             <div className={style.slogan}>
-                {/*<Fade bottom>*/}
                 <div className={style.container}>
                     <div className={style.row_title}>
                         <span>INFORMATION</span>
@@ -49,15 +49,14 @@ const Information = () => {
                                     <div className={style.single_info}>
                                         <span>Email:</span>
                                         <p><a href="iw.dantsevich@gmail.com">iw.dantsevich@gmail.com</a></p>
-
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                {/*</Fade>*/}
             </div>
+            </Fade>
         </div>
 
     )

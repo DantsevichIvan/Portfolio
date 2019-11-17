@@ -2,7 +2,7 @@
     list-style-type: none;
     width: 250px;
     height: 100%;
-    background-color: #120517;
+    background-color: #000000;
     position: fixed;
     z-index: 2;
     /*display: none;*/
@@ -27,7 +27,17 @@
     flex-direction: column;
     align-items: center;
 }
-
+.burger_menu{
+    z-index: 99999;
+}
+.button_burger{
+    font-size: 25px;
+    /*width:max-content;*/
+    margin: 20px;
+}
+.bm_burger_button{
+    background-color: #ffff00;
+}
 .information img {
     border: 5px solid #484848;
     border-radius: 50%;
@@ -72,7 +82,7 @@
 }
 
 @media screen and (max-width: 1100px) {
-   .header{
+   .menu_open{
        display: none;
    }
 }

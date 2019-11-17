@@ -36,6 +36,7 @@ const arrIconSocial = [
 const Footer = () => {
     return (
         <div className={style.footerWraper}>
+          <Fade left >
             <div className={style.footer}>
                 <div className={style.container}>
                     <div className={style.networks}>
@@ -52,6 +53,7 @@ const Footer = () => {
                     <span className={style.copyright}>2019 Все права защищены</span>
                 </div>
             </div>
+          </Fade>
         </div>
     )
 };
