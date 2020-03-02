@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.2c786856.chunk.css",
+    "main.js": "/Portfolio/static/js/main.087b9d5d.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.087b9d5d.chunk.js.map",
+    "runtime~main.js": "/Portfolio/static/js/runtime~main.aeacf694.js",
+    "runtime~main.js.map": "/Portfolio/static/js/runtime~main.aeacf694.js.map",
+    "static/css/2.c2d4b67f.chunk.css": "/Portfolio/static/css/2.c2d4b67f.chunk.css",
+    "static/js/2.9e8ecb76.chunk.js": "/Portfolio/static/js/2.9e8ecb76.chunk.js",
+    "static/js/2.9e8ecb76.chunk.js.map": "/Portfolio/static/js/2.9e8ecb76.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.adc9ef1f40a691eec4f36a1918e0724b.js": "/Portfolio/precache-manifest.adc9ef1f40a691eec4f36a1918e0724b.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/2.c2d4b67f.chunk.css.map": "/Portfolio/static/css/2.c2d4b67f.chunk.css.map",
+    "static/css/main.2c786856.chunk.css.map": "/Portfolio/static/css/main.2c786856.chunk.css.map",
+    "static/media/1200px-Node.js_logo.svg.png": "/Portfolio/static/media/1200px-Node.js_logo.svg.270f55ff.png",
+    "static/media/MERN.jfif": "/Portfolio/static/media/MERN.c081f2c6.jfif",
+    "static/media/What-Is-A-Full-Stack-Developer-and-Everything-You-Need-to-Know-to-Start.jpg": "/Portfolio/static/media/What-Is-A-Full-Stack-Developer-and-Everything-You-Need-to-Know-to-Start.f0233cc7.jpg",
+    "static/media/facebook-logo.svg": "/Portfolio/static/media/facebook-logo.1d965015.svg",
+    "static/media/github.svg": "/Portfolio/static/media/github.f67be5af.svg",
+    "static/media/img_project_1_mono.png": "/Portfolio/static/media/img_project_1_mono.161a3fd1.png",
+    "static/media/linkedin-letters.svg": "/Portfolio/static/media/linkedin-letters.4e04ea3f.svg",
+    "static/media/message.svg": "/Portfolio/static/media/message.387eb7e0.svg",
+    "static/media/phone-call.svg": "/Portfolio/static/media/phone-call.c2c66675.svg",
+    "static/media/placeholder.svg": "/Portfolio/static/media/placeholder.415f32d0.svg",
+    "static/media/programmer_1505290086-1140x570.jpg": "/Portfolio/static/media/programmer_1505290086-1140x570.a7000e40.jpg",
+    "static/media/telegram.svg": "/Portfolio/static/media/telegram.e678dfc4.svg",
+    "static/media/vk.svg": "/Portfolio/static/media/vk.b3912abe.svg"
+  }
+}
