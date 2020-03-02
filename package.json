@@ -2,15 +2,17 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://dantsevichivan.github.io/Portfolio/",
+  "homepage": "https://dantsevichivan.github.io/Portfolio/",
   "dependencies": {
-    "react": "^16.9.0",
-    "react-burger-menu": "^2.6.12",
-    "react-dom": "^16.9.0",
+    "react": "^16.13.0",
+    "react-alice-carousel": "^1.17.3",
+    "react-burger-menu": "^2.6.13",
+    "react-dom": "^16.13.0",
     "react-hamburger-menu": "^1.1.1",
-    "react-particles-js": "^2.7.0",
+    "react-particles-js": "^2.7.1",
     "react-reveal": "^1.2.2",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "react-scroll": "^1.7.16"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,6 +38,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.2.0"
   }
 }

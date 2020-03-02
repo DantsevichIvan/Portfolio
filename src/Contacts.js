@@ -9,15 +9,18 @@ import emailIcon from './img/message.svg'
 const arrayIcon = [
     {
         nameIcon: 'Minsk, Belarus',
-        bgI: {backgroundImage: `url(${mapIcon})`}
+        bgI: {backgroundImage: `url(${mapIcon})`},
+        id:1
     },
     {
         nameIcon: '+375298559228',
-        bgI: {backgroundImage: `url(${phoneIcon})`}
+        bgI: {backgroundImage: `url(${phoneIcon})`},
+        id:2
     },
     {
         nameIcon: 'iw.dantsevich@gmail.com',
-        bgI: {backgroundImage: `url(${emailIcon})`}
+        bgI: {backgroundImage: `url(${emailIcon})`},
+        id:3
     }
 ]
 
@@ -31,7 +34,7 @@ const Contacts = () => {
                     {
                         arrayIcon.map((el) => {
                             return (
-                                <div className={style.single_info}>
+                                <div className={style.single_info} key={el.id}>
                                     <div className={style.icon} style={el.bgI}></div>
                                     <p>
                                         <a href="">{el.nameIcon}</a>

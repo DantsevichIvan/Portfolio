@@ -1,8 +1,7 @@
 import React from 'react';
 import style from './Header.module.css';
-import Skills from "./Skills";
-import Burger_Menu from "./Burger-menu";
-import './menu.css'
+// import './menu.css'
+import {Link, animateScroll as scroll} from "react-scroll";
 
 class MenuOpen extends React.Component {
 
@@ -17,24 +16,43 @@ class MenuOpen extends React.Component {
                         <span>Available for work</span>
                     </div>
                     <div className={style.sidebar_menu}>
-                        <ul className={style.list_menu}>
-                            <li>
-                                <a href="#Home" className={style.link}>Home</a>
-                            </li>
-                            <li>
-                                <a href="#Skills" className={style.link}>Skills</a>
-                            </li>
-                            <li>
-                                <a href="#Projects" className={style.link}>Projects</a>
-                            </li>
-                            <li>
-                                <a href="#Contact" className={style.link}>Contact</a>
-                            </li>
-                        </ul>
+                            <Link
+                                activeClass={style.active}
+                                to={'Home'}
+                                spy={true}
+                                smooth={true}
+                                offset={50}
+                                duration={500}>
+                                Home</Link>
+                            <Link
+                                activeClass={style.active}
+                                to={'Skills'}
+                                spy={true}
+                                smooth={true}
+                                offset={0}
+                                duration={500}>
+                                Skills</Link>
+                            <Link
+                                activeClass={style.active}
+                                to={'project'}
+                                spy={true}
+                                smooth={true}
+                                offset={-150}
+                                duration={500}>
+                                Projects</Link>
+                            <Link
+                                activeClass={style.active}
+                                to={'Contact'}
+                                spy={true}
+                                smooth={true}
+                                offset={0}
+                                duration={500}>
+                                Contact</Link>
                     </div>
                 </div>
             </div>
         )
     }
 }
+
 export default MenuOpen

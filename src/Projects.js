@@ -1,22 +1,10 @@
 import React from 'react';
 import style from './Projects.module.css'
-import Project from "./Project";
-import social_networkBgImg from "./img/social-network.png";
 import Fade from "react-reveal/Fade";
+import SliderProject from "./SliderProject";
 
 
-const projectsList = [
-    {
-        name: "Social-network",
-        bgI: {backgroundImage: `url(${social_networkBgImg})`},
-        link: 'https://dantsevichivan.github.io/project-social-network/'
-    },
-    {
-        name: "test_for_Key-Group",
-        bgI: {backgroundImage: `url(${social_networkBgImg})`},
-        link: "https://dantsevichivan.github.io/test_for_Key-Group/"
-    },
-]
+
 
 
 const Projects = () => {
@@ -31,13 +19,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className={style.project_list}>
-                    {
-                        projectsList.map((el) => {
-                            return (
-                                <Project project={el} style={el.bgI}/>
-                            )
-                        })
-                    }
+                    <SliderProject/>
                 </div>
             </div>
             </Fade>

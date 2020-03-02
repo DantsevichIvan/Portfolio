@@ -1,16 +1,32 @@
 import React from 'react';
-import style from './Project.module.css'
+import styles from './Project.module.css'
 
-const Project = (props) => {
+const Project = ({project,style}) => {
     return (
-        <div className={style.project}>
-            <div className={style.projectImg} style={props.style}>
-                <div className={style.infoProject}>
-                    <span className={style.projectTitle}>{props.project.name}</span>
-                    <a href={props.project.link} className={style.btnShow}>View</a>
+        <div className={styles.project} id={'project'}>
+            <div className={styles.project_img}  style={style}>
+
+            </div>
+            <div className={styles.project_information}>
+                <h3>{project.name}</h3>
+                <p>USED STACK:</p>
+                <ul className={styles.project_information_tags}>
+                    {
+                        project.stackTechnology.map(stack => {
+                            return <li key={stack}>{stack}</li>
+                        })
+                    }
+                </ul>
+                <div className={styles.project_information_linkCell}>
+                    <span>Link:</span>
+                    <a href={project.link}
+                       target='_blank'
+                       className={styles.project_information_link}
+                       title={project.link}>
+                        {project.link}
+                    </a>
                 </div>
             </div>
-            <span className={style.projectTitle}>{props.project.name}</span>
         </div>
 
     )
