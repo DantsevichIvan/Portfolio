@@ -31,11 +31,7 @@ const Skills = () => {
                             <div className={style.skillsIcon}>
                                 {
                                     skills.map((el) => {
-                                        return (
-                                            <div key={el.id}>
-                                                <Skill skill={el} style={el.widthSkill}/>
-                                            </div>
-                                        )
+                                        return <Skill key={el.id} skill={el} style={el.widthSkill}/>
                                     })
                                 }
                             </div>

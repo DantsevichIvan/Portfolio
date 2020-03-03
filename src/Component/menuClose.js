@@ -15,9 +15,7 @@ const MenuClose = ({linksArr}) => {
                 <div>
                     <div className={style.sidebar_menu}>
                         {
-                            linksArr.map(link =>{
-                                return <LinkComponent link={link}/>
-                            })
+                            linksArr.map(link =>{return <LinkComponent link={link} key={link.id}/>})
                         }
                     </div>
                 </div>

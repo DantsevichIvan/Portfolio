@@ -9,7 +9,7 @@ export default function TextInfoSkills({title ,arrSkills}) {
             <div className={style.blockText}>
                 {
                     arrSkills.map(skill =>{
-                        return <p className={style.text}>-{skill}</p>
+                        return <p className={style.text} key={skill}>-{skill}</p>
                     })
                 }
             </div>

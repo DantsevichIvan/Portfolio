@@ -14,9 +14,7 @@ const MenuOpen = ({linksArr}) => {
                 </div>
                 <div className={style.sidebar_menu}>
                     {
-                        linksArr.map(link =>{
-                            return <LinkComponent key={link.name} link={link}/>
-                        })
+                        linksArr.map(link =>{return <LinkComponent key={link.id} link={link}/>})
                     }
                 </div>
             </div>
