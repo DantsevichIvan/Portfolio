@@ -1,10 +1,9 @@
 import React from 'react';
-import style from './Contacts.module.css'
+import style from '../styles/Contacts.module.css'
 import Fade from "react-reveal/Fade";
-import mapIcon from './img/placeholder.svg'
-import phoneIcon from './img/phone-call.svg'
-import emailIcon from './img/message.svg'
-
+import mapIcon from '../img/placeholder.svg'
+import phoneIcon from '../img/phone-call.svg'
+import emailIcon from '../img/message.svg'
 
 const arrayIcon = [
     {
@@ -23,7 +22,6 @@ const arrayIcon = [
         id:3
     }
 ]
-
 
 const Contacts = () => {
     return (

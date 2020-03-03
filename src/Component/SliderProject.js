@@ -1,11 +1,11 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel'
 import "react-alice-carousel/lib/alice-carousel.css"
-import social_network from "./img/img_project_1_mono.png";
-import mern_project from "./img/MERN.jfif";
-import node_project from "./img/1200px-Node.js_logo.svg.png";
-import inner_project from "./img/programmer_1505290086-1140x570.jpg";
-import inner2_project from "./img/What-Is-A-Full-Stack-Developer-and-Everything-You-Need-to-Know-to-Start.jpg";
+import social_network from "../img/img_project_1_mono.png";
+import mern_project from "../img/MERN.jfif";
+import node_project from "../img/1200px-Node.js_logo.svg.png";
+import inner_project from "../img/programmer_1505290086-1140x570.jpg";
+import inner2_project from "../img/What-Is-A-Full-Stack-Developer-and-Everything-You-Need-to-Know-to-Start.jpg";
 import Project from "./Project";
 
 const projects = [

@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Projects.module.css'
+import style from '../styles/Projects.module.css'
 import Fade from "react-reveal/Fade";
 import SliderProject from "./SliderProject";
 

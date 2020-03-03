@@ -1,10 +1,10 @@
 import React from 'react';
-import style from './Footer.module.css';
-import telegramIcon from './img/telegram.svg';
-import vkIcon from './img/vk.svg';
-import facebookIcon from './img/facebook-logo.svg';
-import linkedinIcon from './img/linkedin-letters.svg';
-import gitHubIcon from './img/github.svg'
+import style from '../styles/Footer.module.css';
+import telegramIcon from '../img/telegram.svg';
+import vkIcon from '../img/vk.svg';
+import facebookIcon from '../img/facebook-logo.svg';
+import linkedinIcon from '../img/linkedin-letters.svg';
+import gitHubIcon from '../img/github.svg'
 import Fade from "react-reveal/Fade";
 
 

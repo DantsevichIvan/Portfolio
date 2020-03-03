@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Skill.module.css'
+import style from '../styles/Skill.module.css'
 
 
 const Skill = (props) => {

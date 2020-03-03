@@ -1,0 +1,76 @@
+.project {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    position: relative;
+    margin: auto;
+}
+
+.project_img{
+    width: 400px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.project_information {
+    border: 1px solid #f1f1f1;
+    padding: 20px 50px 40px 30px;
+}
+
+.project_information h3 {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Roboto Mono, monospace;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.project_information p {
+    margin-bottom: 20px;
+}
+
+.project_information_tags li {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .14);
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
+
+.project_information_link {
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 250px;
+    text-overflow: ellipsis;
+}
+
+
+.project_information_linkCell {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.project_information_linkCell span{
+    display: inline-block;
+    padding-right: 8px;
+}
+
+@media screen and (max-width: 700px) {
+    .project{
+        width: 100%;
+    }
+    .project_img {
+        width: 100%
+    }
+}
+
